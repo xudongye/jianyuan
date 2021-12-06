@@ -1,0 +1,418 @@
+@charset "UTF-8";
+.loginter {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.top1 {
+  width: 70%;
+  height: 100%;
+  background: white;
+}
+
+.top1 .log-header {
+  width: 70%;
+  height: 6%;
+  background: white;
+  z-index: 999;
+  position: fixed;
+}
+
+.top1 .log-header .log-eva2 {
+  width: 100%;
+  height: 100%;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.top1 .log-header .log-eva2 .loginButton {
+  margin-right: 5vh;
+}
+
+.top1 .log-header .log-eva2 .log-evaImg {
+  width: 7%;
+  height: 70%;
+  background-size: 100% 100%;
+  background-image: url(../images/2@/logo1@2x.png);
+}
+
+.top1 .log-body {
+  width: 100%;
+  margin-top: 5vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.top1 .log-body .header {
+  width: 100%;
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.top1 .log-body .header .logs-header {
+  width: 100%;
+  height: 19%;
+  text-align: center;
+}
+
+.top1 .log-body .header .logs-header div {
+  font-weight: 600;
+  font-size: 4vh;
+}
+
+.top1 .log-body .header .logs-header p {
+  font-weight: 400;
+}
+
+.top1 .log-body .header .logs-headers {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+}
+
+.top1 .log-body .header .logs-headers #media {
+  width: 80%;
+  height: 100%;
+}
+
+.top1 .log-body .evas {
+  width: 100%;
+  height: 45vh;
+  background: white;
+  margin-top: 2vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.top1 .log-body .evas .evas-header {
+  width: 100%;
+  height: 10%;
+  text-align: center;
+}
+
+.top1 .log-body .evas .evas-header div {
+  font-weight: 600;
+  font-size: 4vh;
+}
+
+.top1 .log-body .evas .evas-body {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 5vh;
+}
+
+.top1 .log-body .evas .evas-body .evas-body-lis {
+  margin-left: 1.5vh;
+  width: 25%;
+  height: 48%;
+  background: #f0eeee;
+  border-radius: 2vh;
+  box-shadow: 0 0 10px 2px #bdcee0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.top1 .log-body .evas .evas-body .evas-body-lis .evas-body-img {
+  width: 20%;
+  height: 45%;
+  margin: 0 auto;
+  background-size: 100% 100%;
+  background-image: url(../images/2@/简单@2x.png);
+}
+
+.top1 .log-body .evas .evas-body .evas-body-lis .evas-body-img1 {
+  width: 20%;
+  height: 45%;
+  margin: 0 auto;
+  background-size: 100% 100%;
+  background-image: url(../images/2@/AR支持@2x.png);
+}
+
+.top1 .log-body .evas .evas-body .evas-body-lis .evas-body-img2 {
+  width: 20%;
+  height: 45%;
+  margin: 0 auto;
+  background-size: 100% 100%;
+  background-image: url(../images/2@/实时分享@2x.png);
+}
+
+.top1 .log-body .evas .evas-body .evas-body-lis .evas-body-img3 {
+  width: 20%;
+  height: 45%;
+  margin: 0 auto;
+  background-size: 100% 100%;
+  background-image: url(../images/2@/海外模型素材@2x.png);
+}
+
+.top1 .log-body .evas .evas-body .evas-body-lis .evas-body-img4 {
+  width: 20%;
+  height: 45%;
+  margin: 0 auto;
+  background-size: 100% 100%;
+  background-image: url(../images/2@/云端编辑@2x.png);
+}
+
+.top1 .log-body .evas .evas-body .evas-body-lis .evas-body-img5 {
+  width: 20%;
+  height: 45%;
+  margin: 0 auto;
+  background-size: 100% 100%;
+  background-image: url(../images/2@/开放@2x.png);
+}
+
+.top1 .log-body .evas .evas-body .evas-body-lis .evas-body-title {
+  font-weight: 600;
+}
+
+.top1 .log-body .carousel {
+  width: 100%;
+  height: 60vh;
+  margin-top: 7vh;
+}
+
+.top1 .log-body .option {
+  width: 100%;
+  height: 60vh;
+  margin-top: 7vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.top1 .log-body .option .option-top {
+  width: 70%;
+  height: 20%;
+  margin-left: 12vh;
+}
+
+.top1 .log-body .option .option-top div {
+  font-size: 4vh;
+  font-weight: 600;
+}
+
+.top1 .log-body .option .option-btn {
+  width: 90%;
+  height: 80%;
+  display: flex;
+  justify-content: space-around;
+  margin-left: 4vh;
+}
+
+.top1 .log-body .option .option-btn .option-btn1 {
+  margin-left: 1vh;
+  width: 18%;
+  height: 100%;
+  border-radius: 2vh;
+  box-shadow: 0 0 10px 2px #bdcee0;
+}
+
+.top1 .log-body .option .option-btn .option-btn1 .option-img1 {
+  width: 100%;
+  height: 75%;
+  background-size: 100% 100%;
+  background-image: url(../images/2@/销售与市场营销@2x.png);
+}
+
+.top1 .log-body .option .option-btn .option-btn1 .option-img2 {
+  width: 100%;
+  height: 75%;
+  background-size: 100% 100%;
+  background-image: url(../images/2@/设计与原型@2x.png);
+}
+
+.top1 .log-body .option .option-btn .option-btn1 .option-img3 {
+  width: 100%;
+  height: 75%;
+  background-size: 100% 100%;
+  background-image: url(../images/2@/训练@2x.png);
+}
+
+.top1 .log-body .option .option-btn .option-btn1 .option-img4 {
+  width: 100%;
+  height: 75%;
+  background-size: 100% 100%;
+  background-image: url(../images/2@/其他@2x.png);
+}
+
+.top1 .log-body .option .option-btn .option-btn1 .option-div {
+  width: 90%;
+  height: 25%;
+  margin-left: 2vh;
+}
+
+.top1 .log-body .option .option-btn .option-btn1 .option-div h3 {
+  font-weight: 600;
+}
+
+.top1 .log-body .option .option-btn .option-btn1 .option-div span {
+  font-size: 1.2vh;
+}
+
+.top1 .log-body .option .option-btn .option-btn1 .option-div div {
+  color: #176bf3;
+}
+
+.top1 .log-body .fouter {
+  width: 100%;
+  height: 30vh;
+  margin-top: 5vh;
+  background: #444444;
+  display: flex;
+  flex-direction: column;
+}
+
+.top1 .log-body .fouter .fouter-top {
+  width: 100%;
+  height: 40%;
+  background: #0068d6;
+  text-align: center;
+}
+
+.top1 .log-body .fouter .fouter-top h1 {
+  color: white;
+  font-size: 4vh;
+}
+
+.top1 .log-body .fouter .fouter-top .loginButtons {
+  background: white;
+  color: #1e74ff;
+}
+
+.top1 .log-body .fouter .fouter-btn {
+  width: 100%;
+  height: 60%;
+  background: #162c44;
+  justify-content: space-around;
+  display: flex;
+}
+
+.top1 .log-body .fouter .fouter-btn .fouter-text {
+  width: 8%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 1vh;
+}
+
+.top1 .log-body .fouter .fouter-btn .fouter-text .fouter-img {
+  width: 70%;
+  height: 25%;
+  background-size: 100% 100%;
+  background-image: url(../images/2@/logo2@2x.png);
+}
+
+.top1 .log-body .fouter .fouter-btn .fouter-text .fouter-list {
+  color: lightgray;
+  font-size: 1vh;
+}
+
+.top1 .log-body .fouter .fouter-btn .fouter-text .fouter-lists {
+  color: white;
+  font-size: 1vh;
+  font-weight: 600;
+}
+
+.top1 .log-body .fouter .fouter-btn .fouter-text div {
+  color: #b6b4b4;
+}
+
+.top1 .log-body .fouter .fouter-btn .fouter-texts {
+  width: 10%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 1vh;
+}
+
+.top1 .log-body .fouter .fouter-btn .fouter-texts .fouter-img {
+  width: 70%;
+  height: 25%;
+  background-size: 100% 100%;
+  background-image: url(../images/2@/logo2@2x.png);
+}
+
+.top1 .log-body .fouter .fouter-btn .fouter-texts .fouter-list {
+  color: lightgray;
+  font-size: 1vh;
+}
+
+.top1 .log-body .fouter .fouter-btn .fouter-texts .fouter-lists {
+  color: white;
+  font-size: 1vh;
+  font-weight: 600;
+}
+
+.top1 .log-body .fouter .fouter-btn .fouter-texts div {
+  color: #b6b4b4;
+}
+
+.buttonInten {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.buttonInten button {
+  color: #2271b2;
+  border: none;
+  background-color: transparent;
+  border: 0;
+}
+
+.kong {
+  width: 100%;
+  height: 100px;
+}
+
+.weixin {
+  display: flex;
+  justify-content: center;
+  align-self: flex-end;
+  font-size: 40px;
+  color: #2ca52c;
+}
+
+.top2 {
+  left: 0px;
+  top: 0px;
+  background: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: 100%;
+  filter: alpha(opacity=60);
+  opacity: 0.6;
+  display: none;
+  z-index: 999;
+}
+
+.top2 .models {
+  position: absolute;
+  width: 500px;
+  height: 300px;
+  top: 50%;
+  left: 50%;
+  background-color: #fff;
+  display: none;
+  cursor: pointer;
+  z-index: 9999;
+}
+
+.ant-modal-content {
+  margin-top: 80px;
+  height: 550px;
+  width: 400px;
+}

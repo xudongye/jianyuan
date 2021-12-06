@@ -1,0 +1,59 @@
+$line-dashes-style: 1px dashed #4c4c4c;
+$line-solid-style: 1px solid #2f2f2f;
+$auxiliary-text-color:#4c4c4c;
+$main-text-color:#dfdfdf;
+
+$primary-color: #477bdc;
+$highlight-color: #ecb02e;
+
+$bg-color-deep:#1b1b1d;
+$content-bg-color-shallow:#232326;
+$content-bg-color-deep:#131315;
+$tabs-text-color:#49494b;
+$small-font-size:14px;
+$nav-text-color:#808080;
+$border-style-standard:1px solid #111112;
+$divider-dashed:1px dashed #353434;
+$standard-font-size:16px;
+$tabs-nav-color-normal:#313134;
+$warning-auxiliary-text-color:rgba($color: #fff, $alpha: 0.2);
+$backFilterblur: blur(20px);
+
+$control-widget-border: 1px solid #545454;
+$input-border:1px solid #545454;
+
+@mixin bg-pic-cover() {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+@mixin tab-border-normal() {
+  border-right: $border-style-standard;
+  border-bottom:$border-style-standard;
+}
+
+@mixin show-two-text() {
+  text-overflow: -o-ellipsis-lastline;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+
+@mixin close-btn() {
+  width: 20px;
+  height: 20px;
+  background-image: url(../images/closeBtn.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 80%;
+  cursor: pointer;
+}
+
+
+

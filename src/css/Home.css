@@ -1,0 +1,396 @@
+@charset "UTF-8";
+.loginters {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.loginters .top2 {
+  width: 70%;
+  height: 100%;
+  background: white;
+}
+
+.loginters .top2 .log-header {
+  width: 70%;
+  height: 6%;
+  background: white;
+  z-index: 999;
+  position: fixed;
+}
+
+.loginters .top2 .log-header .log-eva2 {
+  width: 100%;
+  height: 100%;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.loginters .top2 .log-header .log-eva2 .loginButton {
+  margin-right: 5vh;
+  background: white;
+  color: #059bff;
+}
+
+.loginters .top2 .log-header .log-eva2 .log-evaImg {
+  width: 7%;
+  height: 75%;
+  background-size: 100% 100%;
+  background-image: url(../images/2@/logo1@2x.png);
+}
+
+.loginters .top2 .log-header .log-eva2 .log-texts {
+  color: white;
+}
+
+.loginters .top2 .headers {
+  width: 100%;
+  height: 50vh;
+  background: #059bff;
+  display: flex;
+  margin-top: 7vh;
+  justify-content: center;
+}
+
+.loginters .top2 .headers .headers-left {
+  width: 30%;
+  height: 60%;
+  align-self: flex-end;
+  text-align: center;
+}
+
+.loginters .top2 .headers .headers-left h4 {
+  font-size: 4vh;
+  font-weight: 500;
+  color: white;
+}
+
+.loginters .top2 .headers .headers-left div {
+  font-size: 2vh;
+  color: white;
+}
+
+.loginters .top2 .headers .headers-left .loginButton {
+  margin-right: 5vh;
+  background: white;
+  color: #059bff;
+}
+
+.loginters .top2 .headers .headers-right {
+  width: 50%;
+  height: 100%;
+}
+
+.loginters .top2 .headers .headers-right div {
+  width: 100%;
+  height: 100%;
+  background-size: 100% 100%;
+  background-image: url(../images/3@/headerss.png);
+}
+
+.loginters .top2 .bodySory {
+  width: 100%;
+  height: 80vh;
+  margin-top: 2vh;
+}
+
+.loginters .top2 .bodySory .bodySory-top {
+  width: 70%;
+  height: 20%;
+  margin-left: 12vh;
+}
+
+.loginters .top2 .bodySory .bodySory-top h3 {
+  font-size: 4vh;
+  font-weight: 600;
+}
+
+.loginters .top2 .bodySory .bodySory-body {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.loginters .top2 .bodySory .bodySory-body .option-btn {
+  width: 90%;
+  height: 100%;
+  margin-left: 4vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.loginters .top2 .bodySory .bodySory-body .option-btn .option-btn1 {
+  margin-left: 1vh;
+  width: 25%;
+  height: 48%;
+  border-radius: 2vh;
+  box-shadow: 0 0 10px 2px #bdcee0;
+}
+
+.loginters .top2 .bodySory .bodySory-body .option-btn .option-btn1 .option-img1 {
+  width: 100%;
+  height: 48%;
+  background-size: 100% 100%;
+  background-image: url(../images/3@/复制工具@3x.png);
+}
+
+.loginters .top2 .bodySory .bodySory-body .option-btn .option-btn1 .option-img2 {
+  width: 100%;
+  height: 48%;
+  background-size: 100% 100%;
+  background-image: url(../images/3@/旋转工具@3x.png);
+}
+
+.loginters .top2 .bodySory .bodySory-body .option-btn .option-btn1 .option-img3 {
+  width: 100%;
+  height: 48%;
+  background-size: 100% 100%;
+  background-image: url(../images/3@/移动工具@3x.png);
+}
+
+.loginters .top2 .bodySory .bodySory-body .option-btn .option-btn1 .option-img4 {
+  width: 100%;
+  height: 48%;
+  background-size: 100% 100%;
+  background-image: url(../images/3@/缩放工具@3x.png);
+}
+
+.loginters .top2 .bodySory .bodySory-body .option-btn .option-btn1 .option-img5 {
+  width: 100%;
+  height: 48%;
+  background-size: 100% 100%;
+  background-image: url(../images/3@/标签工具@3x.png);
+}
+
+.loginters .top2 .bodySory .bodySory-body .option-btn .option-btn1 .option-img6 {
+  width: 100%;
+  height: 48%;
+  background-size: 100% 100%;
+  background-image: url(../images/3@/复制工具@3x.png);
+}
+
+.loginters .top2 .bodySory .bodySory-body .option-btn .option-btn1 .option-div {
+  width: 90%;
+  height: 50%;
+  margin-left: 2vh;
+  margin-top: 1vh;
+}
+
+.loginters .top2 .bodySory .bodySory-body .option-btn .option-btn1 .option-div p {
+  font-weight: 600;
+}
+
+.loginters .top2 .bodySory .bodySory-body .option-btn .option-btn1 .option-div span {
+  font-size: 1.2vh;
+}
+
+.loginters .top2 .bodySory .bodySory-body .option-btn .option-btn1 .option-div div {
+  color: #176bf3;
+}
+
+.loginters .top2 .bodySory .bodySory-btn {
+  width: 100%;
+  height: 10%;
+  text-align: center;
+}
+
+.loginters .top2 .bodySory .bodySory-btn button {
+  margin-top: 1vh;
+  height: 70%;
+  font-size: 3vh;
+}
+
+.loginters .top2 .bodyMasse {
+  width: 100%;
+  height: 50vh;
+  margin-top: 2vh;
+}
+
+.loginters .top2 .bodyMasse .bodyMasse-top {
+  width: 70%;
+  height: 20%;
+  margin-left: 12vh;
+}
+
+.loginters .top2 .bodyMasse .bodyMasse-top h3 {
+  font-size: 4vh;
+  font-weight: 600;
+}
+
+.loginters .top2 .bodyMasse .bodyMasse-body {
+  width: 100%;
+  height: 75%;
+  margin-top: 2vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.loginters .top2 .bodyMasse .bodyMasse-body .option-btn {
+  width: 90%;
+  height: 100%;
+  margin-left: 4vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.loginters .top2 .bodyMasse .bodyMasse-body .option-btn .option-btn1 {
+  margin-left: 1vh;
+  width: 25%;
+  height: 95%;
+  border-radius: 2vh;
+  box-shadow: 0 0 10px 2px #bdcee0;
+}
+
+.loginters .top2 .bodyMasse .bodyMasse-body .option-btn .option-btn1 .option-img1 {
+  width: 100%;
+  height: 48%;
+  background-size: 100% 100%;
+  background-image: url(../images/3@/添加视频@3x.png);
+}
+
+.loginters .top2 .bodyMasse .bodyMasse-body .option-btn .option-btn1 .option-img2 {
+  width: 100%;
+  height: 48%;
+  background-size: 100% 100%;
+  background-image: url(../images/3@/自定义@3x.png);
+}
+
+.loginters .top2 .bodyMasse .bodyMasse-body .option-btn .option-btn1 .option-img3 {
+  width: 100%;
+  height: 48%;
+  background-size: 100% 100%;
+  background-image: url(../images/3@/添加音频@3x.png);
+}
+
+.loginters .top2 .bodyMasse .bodyMasse-body .option-btn .option-btn1 .option-div {
+  width: 90%;
+  height: 50%;
+  margin-left: 2vh;
+  margin-top: 1vh;
+}
+
+.loginters .top2 .bodyMasse .bodyMasse-body .option-btn .option-btn1 .option-div p {
+  font-weight: 600;
+}
+
+.loginters .top2 .bodyMasse .bodyMasse-body .option-btn .option-btn1 .option-div span {
+  font-size: 1.2vh;
+}
+
+.loginters .top2 .bodyMasse .bodyMasse-body .option-btn .option-btn1 .option-div div {
+  color: #176bf3;
+}
+
+.loginters .top2 .bodyMasse .bodyMasse-btn {
+  width: 100%;
+  height: 16%;
+  text-align: center;
+}
+
+.loginters .top2 .bodyMasse .bodyMasse-btn button {
+  margin-top: 1vh;
+  height: 70%;
+  font-size: 3vh;
+}
+
+.loginters .top2 .fouter {
+  width: 100%;
+  height: 35vh;
+  margin-top: 8vh;
+  background: #444444;
+  display: flex;
+  flex-direction: column;
+}
+
+.loginters .top2 .fouter .fouter-top {
+  width: 100%;
+  height: 40%;
+  background: #0068d6;
+  text-align: center;
+}
+
+.loginters .top2 .fouter .fouter-top h1 {
+  color: white;
+  font-size: 4vh;
+}
+
+.loginters .top2 .fouter .fouter-top .loginButtons {
+  background: white;
+  color: #1e74ff;
+}
+
+.loginters .top2 .fouter .fouter-btn {
+  width: 100%;
+  height: 60%;
+  background: #162c44;
+  justify-content: space-around;
+  display: flex;
+}
+
+.loginters .top2 .fouter .fouter-btn .fouter-text {
+  width: 8%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 1vh;
+}
+
+.loginters .top2 .fouter .fouter-btn .fouter-text .fouter-img {
+  width: 70%;
+  height: 20%;
+  background-size: 100% 100%;
+  background-image: url(../images/2@/logo2@2x.png);
+}
+
+.loginters .top2 .fouter .fouter-btn .fouter-text .fouter-list {
+  color: lightgray;
+  font-size: 1vh;
+}
+
+.loginters .top2 .fouter .fouter-btn .fouter-text .fouter-lists {
+  color: white;
+  font-size: 1vh;
+  font-weight: 600;
+}
+
+.loginters .top2 .fouter .fouter-btn .fouter-text div {
+  color: #b6b4b4;
+}
+
+.loginters .top2 .fouter .fouter-btn .fouter-texts {
+  width: 10%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 1vh;
+}
+
+.loginters .top2 .fouter .fouter-btn .fouter-texts .fouter-img {
+  width: 70%;
+  height: 20%;
+  background-size: 100% 100%;
+  background-image: url(../images/2@/logo2@2x.png);
+}
+
+.loginters .top2 .fouter .fouter-btn .fouter-texts .fouter-list {
+  color: lightgray;
+  font-size: 1vh;
+}
+
+.loginters .top2 .fouter .fouter-btn .fouter-texts .fouter-lists {
+  color: white;
+  font-size: 1vh;
+  font-weight: 600;
+}
+
+.loginters .top2 .fouter .fouter-btn .fouter-texts div {
+  color: #b6b4b4;
+}

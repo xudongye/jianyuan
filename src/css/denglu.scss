@@ -1,0 +1,27 @@
+.yangshi {
+  p {
+    font-size: 15px;
+    text-align: right;
+    color: rgb(56, 117, 216);
+    cursor: default;
+  }
+  input {
+    margin-top: 10px;
+  }
+  button {
+    margin-left: 2px;
+    margin-top: 10px;
+  }
+  .zhezhao {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .5);
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
